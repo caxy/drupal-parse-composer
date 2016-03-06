@@ -6,31 +6,16 @@
             "email": "wa.milton@gmail.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "drupal/drupal",
-                "version": "7.41.0",
-                "dist":
-                {
-                    "url": "https://ftp.drupal.org/files/projects/drupal-7.41.zip",
-                    "type": "zip"
-                }
-            }
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Drupal\\ParseComposer\\": "src/"
         },
         "files": [
-            "bootstrap.php"
+            "src/functions.php"
         ]
     },
     "require": {
         "php": ">=5.4",
-        "drupal/drupal": "7.*",
         "guzzle/guzzle": "*"
     },
     "minimum-stability": "dev",

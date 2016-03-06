@@ -13,7 +13,7 @@ class Makefile
      */
     public function __construct($data)
     {
-        $this->makeInfo = \drupal_parse_info_format($data);
+        $this->makeInfo = drupal_parse_info_format($data);
     }
 
     /**

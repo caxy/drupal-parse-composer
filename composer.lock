@@ -4,20 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7b7f3af00b1e6069cbc9a083b6cdfa7d",
-    "content-hash": "3c680f0d1308ef6fb342d49fcdb12805",
+    "hash": "6ad6b71f3ba100201e7342db463a3f21",
+    "content-hash": "8887f35b8f0d121c40540f8b9994e97d",
     "packages": [
-        {
-            "name": "drupal/drupal",
-            "version": "7.41.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/drupal-7.41.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "library"
-        },
         {
             "name": "guzzle/guzzle",
             "version": "dev-master",
