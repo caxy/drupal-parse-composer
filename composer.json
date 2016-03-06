@@ -16,7 +16,7 @@
     },
     "require": {
         "php": ">=5.4",
-        "guzzle/guzzle": "*"
+        "guzzlehttp/guzzle": "^6.0"
     },
     "minimum-stability": "dev",
     "require-dev": {

@@ -57,7 +57,7 @@ class ReleaseInfo
     /**
      * Fetch release history for given project information from drupal.org.
      *
-     * @return \Guzzle\Http\Message\RequestInterface|\SimpleXMLElement
+     * @return \SimpleXMLElement
      */
     private function fetch()
     {
